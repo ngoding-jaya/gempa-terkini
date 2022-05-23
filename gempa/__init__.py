@@ -70,6 +70,6 @@ def tampilkan_data(result):
     print(f"Waktu: {result['waktu']}")
     print(f"Magnitudo: {result['magnitudo']}")
     print(f"Kedalaman: {result['kedalaman']}")
-    print(f"Koordinat: {result['koordinat']['ls']}{result['koordinat']['bt']}")
+    print(f"Koordinat: {result['koordinat']['ls']} {result['koordinat']['bt']}")
     print(f"{result['lokasi']}")
     print(f"{result['dirasakan']}")
